@@ -1,6 +1,6 @@
 
 # Movie Recommendation System
-Deployment: 
+Deployment: https://movie-recommender-tthawin.streamlit.app/
 
 This project is a **content-based movie and TV show recommender system** built using Python and Streamlit. It analyzes Netflix's title descriptions and recommends similar content based on **text similarity** using **TF-IDF vectorization** and **cosine similarity**. The system provides an interactive interface where users can select a movie or show from a dropdown and instantly receive top recommendations that match its theme or storyline.
 
