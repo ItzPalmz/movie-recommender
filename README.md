@@ -1,4 +1,6 @@
+
 # Movie Recommendation System
+Deployment: 
 
 This project is a **content-based movie and TV show recommender system** built using Python and Streamlit. It analyzes Netflix's title descriptions and recommends similar content based on **text similarity** using **TF-IDF vectorization** and **cosine similarity**. The system provides an interactive interface where users can select a movie or show from a dropdown and instantly receive top recommendations that match its theme or storyline.
 
@@ -24,6 +26,7 @@ This project leverages natural language processing (NLP) techniques to help user
 
 The dataset used in this project is a cleaned version of the **Netflix Titles Dataset**, which contains metadata about movies and TV shows available on Netflix. Each entry includes information such as the **title**, **year of release**, and a **brief description** of the content. For this content-based recommendation system, the **description** field plays a crucial role, as it allows the model to analyze and compare the thematic content of different titles. By transforming these descriptions into numerical representations using **TF-IDF (Term Frequency-Inverse Document Frequency)**, we can effectively calculate similarities between titles and generate meaningful, context-aware recommendations.
 
+Data Source:  [https://www.kaggle.com/datasets/shivamb/netflix-shows](https://www.kaggle.com/datasets/shivamb/netflix-shows)
 ## Steps to create recommender systems
 -   **Collect and Load the Data**
     
