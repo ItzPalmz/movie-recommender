@@ -63,12 +63,9 @@ st_lottie(lottie_coding, speed=1, reverse=False, loop=True, quality="low", heigh
 
 # Sidebar
 with st.sidebar:
-    st.title("Navigation")  
-    st.markdown("Choose an option to explore")
     st.info("""
         This is a Netflix content analysis and recommendation system.
         - Get movie recommendations based on content similarity.
-        - Dark theme enabled.
     """)
 
 # Movie selection
